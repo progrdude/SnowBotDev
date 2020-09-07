@@ -12,7 +12,7 @@ class GenerateDirectMessageContent
 	VERSION = 2.0088
 	BOT_NAME = '@Give1free'
 	BOT_CHAR = '⚡'
-  GET_STARTED_MESSAGE = "Send 'main' for main menu and 'help' for a list of supported commands. \n To get straight to the snow reports, send 'reports'"
+  GET_STARTED_MESSAGE = "Hello! Welcome to the bot 'Get1free' \n write 'select product' \n to get it for free"
 
 	attr_accessor :twitter_client,
 		            :resources,
@@ -510,7 +510,7 @@ class GenerateDirectMessageContent
 		option['metadata'] = 'snow_music'
 		options << option
 
-		
+
 
 		options
 
