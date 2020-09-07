@@ -136,7 +136,7 @@ class GenerateDirectMessageContent
 	  event['event'] = message_create_header(recipient_id)
 
 	  message_data = {}
-	  message_data['text'] = 'Select a playlist:'
+	  message_data['text'] = 'Select a product:'
 
 	  message_data['quick_reply'] = {}
 	  message_data['quick_reply']['type'] = 'options'
@@ -473,13 +473,7 @@ class GenerateDirectMessageContent
 
 	  message_text = "Several commands are supported: \n \n" + 
                 "#{BOT_CHAR} ⇨ Main menu \n  send: 'main', 'home', 'bot' \n " +
-                "#{BOT_CHAR} ⇨ See photo \n  send: 'photo', 'pic' \n  " +
-		            "#{BOT_CHAR} ⇨ Get resort snow report \n  send: 'report(s)', 'resort(s)' \n    via http://feeds.snocountry.net/conditions \n "  +
-				        "#{BOT_CHAR} ⇨ Learn about snow \n  send: 'learn', 'link' \n " +
-	              "#{BOT_CHAR} ⇨ Get playlist \n  send: 'playlist', 'music' \n " +
-				        "#{BOT_CHAR} ⇨ See snow Tweet of the day \n  send: 'Tweet', 'TOD' \n " +
-	              "#{BOT_CHAR} ⇨ Learn about the #{BOT_NAME} \n   send: 'about' \n " +
-	              "#{BOT_CHAR} ⇨ Review these commands \n  send: 'help' \n "
+                "#{BOT_CHAR} ⇨ Select product \n  send: 'Select product', 'pic' \n  "
 
 	  #Build DM content.
 	  event = {}

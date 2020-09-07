@@ -20,7 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b88ca9c-3386-4c35-9c95-1ff05c264a7b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/config/data/music/playlists.csv" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/data/music/playlists.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/generate_direct_message_content.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/generate_direct_message_content.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599510263580</updated>
-      <workItem from="1599510268451" duration="4229000" />
+      <workItem from="1599510268451" duration="4756000" />
     </task>
     <servers />
   </component>
@@ -81,9 +82,9 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="746" y="12" width="579" height="801" key="find.popup" timestamp="1599514271625">
+    <state x="746" y="12" width="579" height="801" key="find.popup" timestamp="1599514989651">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="746" y="12" width="579" height="801" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1599514271625" />
+    <state x="746" y="12" width="579" height="801" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1599514989651" />
   </component>
 </project>
