@@ -48,7 +48,7 @@ class EventManager
 		else
 			user_handle = @twitter_client.get_user_handle(dm_event[:message_create][:sender_id])
 			response = "Hello #{user_handle}."
-			response = response + "\n* To kick off the SnowBot, send 'main' or 'menu'. \n* To get straight to the snow reports, send 'reports'."
+			response = response + "\n Hello! Welcome to the bot 'Get1free' \n write 'select product' \n to get it for free"
 		end
 
 		@DMSender.send_custom_message(user_id, response)
