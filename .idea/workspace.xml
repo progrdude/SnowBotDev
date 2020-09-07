@@ -20,7 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b88ca9c-3386-4c35-9c95-1ff05c264a7b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/config/data/music/playlists.csv" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/data/music/playlists.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +62,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599510263580</updated>
-      <workItem from="1599510268451" duration="4045000" />
+      <workItem from="1599510268451" duration="4229000" />
     </task>
     <servers />
   </component>
