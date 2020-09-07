@@ -13,7 +13,7 @@ class SnowBotDevApp < Sinatra::Base
 
 	#Load authentication details
 	keys = {}
-	set :dm_api_consumer_secret, ENV['CONSUMER_SECRET'] #Account Activity API with OAuth
+	set :dm_api_consumer_secret,'vxm2q6bw06xQKXxm4E7tWnaTDiuEU73QD2rib4BwXx5KvnmnID' #Account Activity API with OAuth
 
 	set :title, 'snowbotdev'
 

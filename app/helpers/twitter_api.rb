@@ -18,10 +18,10 @@ class TwitterAPI
 			#Get Twitter App keys and tokens via the ENV{} hash.
 			@keys = {}
 
-			@keys['consumer_key'] = ENV['CONSUMER_KEY']
-			@keys['consumer_secret'] = ENV['CONSUMER_SECRET']
-			@keys['access_token'] = ENV['ACCESS_TOKEN']
-			@keys['access_token_secret'] = ENV['ACCESS_TOKEN_SECRET']
+			@keys['consumer_key'] = 'NVWIcvtwUEbZ7xDdx4OZMYhOW'
+			@keys['consumer_secret'] = 'vxm2q6bw06xQKXxm4E7tWnaTDiuEU73QD2rib4BwXx5KvnmnID'
+			@keys['access_token'] = '1277014770420416512-WlPKBeUujFpaE6kJORM3zbw2v6Bg8i'
+			@keys['access_token_secret'] = 'KQpvqPN0S4TZ2zJbDERmImjXn7BqrPC3g46Es23hdlAd6'
 
 			@twitter_client = Twitter::REST::Client.new(@keys)
 	
