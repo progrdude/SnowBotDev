@@ -510,11 +510,7 @@ class GenerateDirectMessageContent
 		option['metadata'] = 'snow_music'
 		options << option
 
-		option = {}
-		option['label'] = "#{BOT_CHAR} See (deep) snow Tweet of the day"
-		option['description'] = 'Most engaged Tweet from last 24 hours.'
-		option['metadata'] = 'snow_tweet'
-		options << option
+		
 
 		options
 
@@ -524,7 +520,7 @@ class GenerateDirectMessageContent
 
 		options = []
 
-		
+
 
 		option = {}
 		option['label'] = '☔ Help'
